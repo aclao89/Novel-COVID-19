@@ -80,7 +80,7 @@ ________________________________________________________________________________
 
 As of 4/1/2020, this simple chart shows the overall confirmed, deaths, recovered, and active cases in the world. Experts expect these numbers to rise exponentially before cases start diminishing.
 
-![global_overview](https://github.com/aclao89/Novel-COVID-19/blob/master/Images/global_chart.PNG)
+![global_overview](https://github.com/aclao89/Novel-COVID-19/blob/master/Images/global_status_4_1_2020.PNG)
 
 
 
@@ -88,8 +88,15 @@ Continent Overview
 
 ![continent_overview](https://github.com/aclao89/Novel-COVID-19/blob/master/Images/continent_cases.PNG)
 
-Europe, North America, Asia are significantly affected by COVID-19. We will dive deeper into countries in the following chart.
+Europe, North America, Asia are significantly affected by COVID-19. We will dive deeper into countries in the following charts.
 
+
+Countries with the Highest Mortality Rate %
+
+![countries high mortality](https://github.com/aclao89/Novel-COVID-19/blob/master/Images/countries_high_mort_rate.png)
+
+
+The graphs filters out countries with at least 10,000 confirmed cases. Italy has the highest mortality rate, 12%,  which was 3% more than the second leading country, Spain at 9%. 
 
 
 Top 10 Countries with Confirmed Cases
@@ -126,8 +133,7 @@ Top 10 Countries with Recovered Cases
 ![top 10 recovered](https://github.com/aclao89/Novel-COVID-19/blob/master/Images/top10recovered.png)
 
 
-China was the epicenter of COVID=19 so it not surprising they will have the most recovered cases at first.
-
+China was the epicenter of COVID=19 so it not surprising they will have the more initial recovered cases.
 
 
 Calendar Heatmap
@@ -137,9 +143,59 @@ Calendar Heatmap
 
 The number of daily confirmed and deaths continue to climb. Social distancing and more protective measures must be taken to slow it down!
 
-#Map visualizations
+________________________________________________________________________________
+
+#USA Data Analysis
+
+Total US Overview (4/1/2020)
+
+![totalusoverview](https://github.com/aclao89/Novel-COVID-19/blob/master/Images/us_total_mort.PNG)
+
+
+The overall mortality rate is 2.23%
+
+Cities with the highest deaths
+
+![cities death](https://github.com/aclao89/Novel-COVID-19/blob/master/Images/city_state_mort_chart.png)
+
+The first confirmed case in USA was in Snohomish County, Washington on January 19th, 2020. The individual returned from  Wuhan, China, where he is suspected to have contracted the disease. As previously mentioned, New York City has been significantly impacted by COVID-19.
+
+
+
+States with the Highest Mortality Rates (> 1000 confirmed cases)
+
+![usstatehighmort](https://github.com/aclao89/Novel-COVID-19/blob/master/Images/states_high_mortality.png)
+
+All the states listed have at least 1000 confirmed cases. Louisiana has the highest mortality rate, however this should not be misconstrued as the worst area. The high mortality rate could be due to less amount of confirmed cases in Louisiana compared to New York.
+
+#Map Visualizations
+
+Global Map
 
 ![global folium map](https://github.com/aclao89/Novel-COVID-19/blob/master/Images/global_map_circles.PNG)
 
 
 I used folium to create an interactive global map to show status of all affected areas. Once a area is hovered, it shows name of the country, state (if applicable), confirmed cases, deaths, and mortality rate %. The size of the circle markers are linearly related to the amount of cases.
+
+
+USA Scatter Map (please see USA analysis.ipynb for Plotly's interactive features)
+
+![usamap](https://github.com/aclao89/Novel-COVID-19/blob/master/Images/us_scatter_map.png)
+
+The scatter geo plot shows all the affected cities in the USA as of 4/1/2020. The pop shows the confirmed, deaths, and mortality rate (%).
+
+
+USA Confirmed Cases Heat Map (4/1/2020)
+
+![usaconfirmedmap](https://github.com/aclao89/Novel-COVID-19/blob/master/Images/us_conf_map.png)
+
+
+New York has by far the most confirmed cases. The rest of the country is around the color sequence. However, unless citizens abide by social distancing measures, the severity of confirmed and deaths will continue to rise.
+
+
+USA Deaths Heat Map (4/1/2020)
+
+![usdeathsmap](https://github.com/aclao89/Novel-COVID-19/blob/master/Images/us_death_heat.png)
+
+
+New York is considered the 'epicenter' in the USA. The amount of deaths is staggering and will continue to climb before the virus eventually flattens out.
