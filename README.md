@@ -25,11 +25,11 @@ https://github.com/CSSEGISandData/COVID-19
 
 Raw Data Used:
 
-time_series_covid19_confirmed_US.csv
-time_series_covid19_confirmed_global.csv
-time_series_covid19_deaths_US.csv
-time_series_covid19_deaths_global.csv
-time_series_covid19_recovered_global.csv
+1. time_series_covid19_confirmed_US.csv
+2. time_series_covid19_confirmed_global.csv
+3. time_series_covid19_deaths_US.csv
+4. time_series_covid19_deaths_global.csv
+5. time_series_covid19_recovered_global.csv
 
 *For more information on updates and data structure changes:*
 
@@ -39,12 +39,12 @@ ________________________________________________________________________________
 
 Library Used for Analysis
 
-Pandas - Data analysis and manipulation
-Numpy - Support for Pandas and calculations
-Matplotlib - Graphs and map visualizations
-Datetime - Converting values to datetime values
-Folium - Library for Map
-Plotly - Interactive plots
+1. Pandas - Data analysis and manipulation
+2. Numpy - Support for Pandas and calculations
+3. Matplotlib - Graphs and map visualizations
+4. Datetime - Converting values to datetime values
+5. Folium - Library for Map
+6. Plotly - Interactive plots
 
 ![library_imports](https://github.com/aclao89/Novel-COVID-19/blob/master/Images/library_imports.png)
 
@@ -62,10 +62,10 @@ After loading, I examined the .head() of each file to ensure consistency in data
 
 Examined the data to find inconsistencies and errors in several country names. Need to modify fit the documentation https://pypi.org/project/pycountry/. Below were the changes.
 
-US -> USA
-Two provinces in Congo ->Democratic Republic of Congo
-Korea, South -> South Korea
-Removed the * in Taiwan*
+1. US -> USA
+2. Two provinces in Congo ->Democratic Republic of Congo
+3. Korea, South -> South Korea
+4. Removed the * in Taiwan*
 
 
 ![data_cleaning](https://github.com/aclao89/Novel-COVID-19/blob/master/Images/data_clean_1.PNG)
