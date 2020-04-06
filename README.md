@@ -96,7 +96,7 @@ Countries with the Highest Mortality Rate %
 ![countries high mortality](https://github.com/aclao89/Novel-COVID-19/blob/master/Images/countries_high_mort_rate.png)
 
 
-The graphs filters out countries with at least 10,000 confirmed cases. Italy has the highest mortality rate, 12%,  which was 3% more than the second leading country, Spain at 9%. 
+The graphs filters out countries with at least 10,000 confirmed cases. Italy has the highest mortality rate, 12%,  which was 3% more than the second leading country, Spain at 9%.
 
 
 Top 10 Countries with Confirmed Cases
@@ -187,7 +187,7 @@ The scatter geo plot shows all the affected cities in the USA as of 4/1/2020. Th
 
 USA Confirmed Cases Heat Map (4/1/2020)
 
-![usaconfirmedmap](https://github.com/aclao89/Novel-COVID-19/blob/master/Images/us_conf_map.png)
+![usaconfirmedmap](https://github.com/aclao89/Novel-COVID-19/blob/master/Images/us_conf_heat.png)
 
 
 New York has by far the most confirmed cases. The rest of the country is around the color sequence. However, unless citizens abide by social distancing measures, the severity of confirmed and deaths will continue to rise.
